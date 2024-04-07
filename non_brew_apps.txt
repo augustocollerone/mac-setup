@@ -1,0 +1,15 @@
+Amie.app is NOT available on Brew.
+Arc.app is NOT available on Brew.
+Corsair Thunderbolt Dock Utility.app is NOT available on Brew.
+Day One.app is NOT available on Brew.
+Fey.app is NOT available on Brew.
+GitHub Desktop.app is NOT available on Brew.
+IPFS Desktop.app is NOT available on Brew.
+Magnet.app is NOT available on Brew.
+Original Prusa Drivers is NOT available on Brew.
+Rize.app is NOT available on Brew.
+Spark Desktop.app is NOT available on Brew.
+Synology Active Backup for Business Agent.app is NOT available on Brew.
+Things3.app is NOT available on Brew.
+Visual Studio Code - Insiders.app is NOT available on Brew.
+zoom.us.app is NOT available on Brew.

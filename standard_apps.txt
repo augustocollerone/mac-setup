@@ -1,0 +1,7 @@
+
+GarageBand.app
+Numbers.app
+Pages.app
+Safari.app
+Utilities
+iMovie.app

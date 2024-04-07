@@ -1,0 +1,62 @@
+1Password.app
+Amie.app
+Android Studio.app
+Arc.app
+Blender.app
+Brave Browser.app
+CHIRP.app
+Canon Utilities
+Copilot.app
+Corsair Thunderbolt Dock Utility.app
+Cursor.app
+Day One.app
+Discord.app
+Docker.app
+Elgato Stream Deck.app
+ExpressVPN.app
+Fey.app
+Figma.app
+Ganache.app
+GarageBand.app
+GitHub Desktop.app
+Google Chrome.app
+Gramps.app
+IPFS Desktop.app
+Instapaper.app
+Keynote.app
+LM Studio.app
+Ledger Live.app
+Logi Options.app
+LogiTune.app
+Magnet.app
+MultiViewer for F1.app
+Notion Calendar.app
+Notion.app
+Numbers.app
+OBS.app
+Obsidian.app
+Original Prusa Drivers
+Pages.app
+Postman.app
+Raycast.app
+Rize.app
+Safari.app
+Slack.app
+Spark Desktop.app
+Spotify.app
+Sublime Text.app
+Superhuman.app
+Synology Active Backup for Business Agent.app
+Synology Drive Client.app
+TeamViewer.app
+Things3.app
+Todoist.app
+Tor Browser.app
+Utilities
+Visual Studio Code - Insiders.app
+Visual Studio Code.app
+WhatsApp.app
+Yubico Authenticator.app
+iMovie.app
+iTerm.app
+zoom.us.app

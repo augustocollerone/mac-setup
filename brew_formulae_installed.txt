@@ -1,0 +1,78 @@
+autoconf
+brotli
+c-ares
+ca-certificates
+cairo
+cmake
+cocoapods
+fastlane
+    firebase-cli
+fontconfig
+freetype
+fribidi
+gdbm
+gdk-pixbuf
+gettext
+giflib
+    git
+    git-lfs
+glib
+gobject-introspection
+graphite2
+harfbuzz
+icu4c
+jpeg
+jpeg-turbo
+libcbor
+libevent
+libffi
+libfido2
+libnghttp2
+libpng
+libpthread-stubs
+librsvg
+libtiff
+libuv
+libx11
+libxau
+libxcb
+libxdmcp
+libxext
+libxrender
+libyaml
+lz4
+lzo
+m4
+macos-term-size
+mkcert
+mpdecimal
+mysql-client
+ncurses
+    node
+    node@16
+openssl@1.1
+openssl@3
+pango
+pcre
+pcre2
+pixman
+pkg-config
+    pyenv
+    python@3.10
+    python@3.11
+    python@3.9
+readline
+ruby
+ruby@3.1
+sqlite
+stripe
+terminal-notifier
+    terraform
+turnkey
+xorgproto
+xz
+    yarn
+zlib
+zsh
+zsh-syntax-highlighting
+zstd

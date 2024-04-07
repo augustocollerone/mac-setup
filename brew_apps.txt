@@ -1,0 +1,6 @@
+Elgato Stream Deck.app is available on Brew.
+LM Studio.app is available on Brew.
+Ledger Live.app is available on Brew.
+Logi Options.app is available on Brew.
+LogiTune.app is available on Brew.
+MultiViewer for F1.app is available on Brew.
