@@ -1,33 +1,42 @@
 #!/bin/bash
 
-# Path to the file containing the list of apps to install
-APP_LIST_PATH="./brewList.txt"
+# Check if Homebrew is installed
+if ! command -v brew &> /dev/null
+then
+    echo "Homebrew not found. Installing Homebrew..."
+    # Install Homebrew
+    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+else
+    echo "Homebrew is already installed."
+fi
+
+# Update and upgrade Homebrew to make sure we're working with the latest version and formulae
+brew update
+brew upgrade
+
+# Path to the file containing the list of formulae to install
+FORMULAE_LIST_PATH="./brewList.txt"
 
 # Counter for failed installations
 FAIL_COUNT=0
 
 # Temporary file to store error messages
 ERROR_LOG="install_errors.log"
+> "$ERROR_LOG" # Clear the log file
 
-# Make sure the error log file is empty
-> "$ERROR_LOG"
-
-# Read each line in the app list file
-while IFS= read -r app; do
-    echo "Attempting to install $app..."
-    # Attempt to install the app and capture any error messages
-    ERROR=$(brew install $app 2>&1 > /dev/null)
+# Install each formula from the list
+while IFS= read -r formula; do
+    echo "Attempting to install $formula..."
+    ERROR=$(brew install $formula 2>&1)
     if [ $? -ne 0 ]; then
-        # If the installation failed, log the error message
-        echo "Failed to install $app. Error: $ERROR" | tee -a "$ERROR_LOG"
+        echo "Failed to install $formula. Error: $ERROR" | tee -a "$ERROR_LOG"
         ((FAIL_COUNT++))
     else
-        echo "$app installed successfully."
+        echo "$formula installed successfully."
     fi
-done < "$APP_LIST_PATH"
+done < "$FORMULAE_LIST_PATH"
 
-# Report the number of failed installations
-echo "Installation process completed. $FAIL_COUNT apps failed to install."
+echo "Installation process completed. $FAIL_COUNT formula(e) failed to install."
 if [ $FAIL_COUNT -ne 0 ]; then
     echo "Check $ERROR_LOG for details on the installation errors."
 fi
