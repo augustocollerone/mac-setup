@@ -30,9 +30,10 @@ docker-compose
 --cask ngrok
 --cask visual-studio-code
 
-python
-firebase-cli
 node
 nvm
-terraform
 yarn
+
+python
+firebase-cli
+terraform
