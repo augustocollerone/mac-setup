@@ -28,6 +28,7 @@ alias ...='cd ../..'
 alias ....='cd ../../..'
 alias zshconfig='code ~/.zshrc'
 alias setup='/opt/homebrew/bin/git --git-dir=$HOME/.machine-setup/ --work-tree=$HOME'
+alias setupconfig='code ~/.machine-setup'
 
 #------------------------------------------------------------------------------
 # 8. Functions
