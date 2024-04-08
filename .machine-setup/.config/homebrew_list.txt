@@ -1,46 +1,38 @@
 --cask arc
+--cask obsidian
+--cask notion-calendar
+--cask notion
+--cask spotify
+
+--cask raycast
 --cask 1password
+--cask tor-browser
+--cask yubico-authenticator
+--cask obs
+--cask rectangle
 --cask chirp
+
+--cask slack
+--cask whatsapp
+--cask superhuman
 --cask discord
 
---cask rectangle
-
---cask ngrok
-
-python
-firebase-cli
 git
 git-lfs
 --cask github
 
-node
-nvm
-terraform
-yarn
 docker
 docker-compose
 --cask docker
 
---cask notion-calendar
---cask notion
---cask obs
-
---cask obsidian
-
+--cask iterm2
 --cask postman
-
---cask raycast
-
---cask slack
---cask spotify
---cask superhuman
-
---cask tor-browser
-
+--cask ngrok
 --cask visual-studio-code
 
---cask whatsapp
-
---cask yubico-authenticator
-
---cask iterm2
+python
+firebase-cli
+node
+nvm
+terraform
+yarn
