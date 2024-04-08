@@ -1,0 +1,46 @@
+--cask arc
+--cask 1password
+--cask chirp
+--cask discord
+
+--cask rectangle
+
+--cask ngrok
+
+python
+firebase-cli
+git
+git-lfs
+--cask github
+
+node
+nvm
+terraform
+yarn
+docker
+docker-compose
+--cask docker
+
+--cask notion-calendar
+--cask notion
+--cask obs
+
+--cask obsidian
+
+--cask postman
+
+--cask raycast
+
+--cask slack
+--cask spotify
+--cask superhuman
+
+--cask tor-browser
+
+--cask visual-studio-code
+
+--cask whatsapp
+
+--cask yubico-authenticator
+
+--cask iterm2
