@@ -14,6 +14,9 @@ fi
 brew update
 brew upgrade
 
+# Disable Homebrew analytics
+brew analytics off
+
 # Path to the file containing the list of formulae to install
 FORMULAE_LIST_PATH="./brewList.txt"
 
