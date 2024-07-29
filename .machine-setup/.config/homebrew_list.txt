@@ -3,6 +3,8 @@
 --cask notion-calendar
 --cask notion
 --cask spotify
+--cask figma
+
 
 --cask raycast
 --cask 1password
@@ -16,6 +18,7 @@
 --cask whatsapp
 --cask superhuman
 --cask discord
+--cask telegram
 
 git
 git-lfs
