@@ -40,3 +40,5 @@ yarn
 python
 firebase-cli
 terraform
+
+vercel-cli
