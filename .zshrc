@@ -45,14 +45,8 @@ function myip() {
 }
 
 #------------------------------------------------------------------------------
-# NVM Config (Legacy need update)
-source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-
-source $HOMEBREW_PREFIX/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # NVM Config (Legacy need update)
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-
-export PATH="/opt/homebrew/opt/node@16/bin:$PATH"
