@@ -1,0 +1,77 @@
+# Development Tools
+brew "git"
+brew "git-lfs"
+brew "node"
+brew "pnpm"
+brew "nvm"
+brew "yarn"
+brew "python"
+brew "firebase-cli"
+brew "terraform"
+brew "vercel-cli"
+cask "visual-studio-code"
+cask "cursor"
+cask "postman"
+cask "ngrok"
+cask "github"
+
+# Terminals and Shells
+cask "iterm2"
+
+# Containerization and Virtualization
+brew "docker"
+brew "docker-compose"
+cask "docker"
+
+# Productivity and Note-taking
+cask "notion"
+cask "notion-calendar"
+cask "obsidian"
+cask "raycast"
+# cask "rectangle"
+
+# Communication and Collaboration
+cask "slack"
+cask "discord"
+cask "telegram"
+cask "zoom"
+cask "whatsapp"
+cask "superhuman"
+cask "loom"
+
+# Browsers and Internet Tools
+cask "arc"
+cask "tor-browser"
+
+# Security and Authentication
+cask "1password"
+cask "yubico-authenticator"
+
+# Media and Entertainment
+cask "spotify"
+cask "multiviewer-for-f1"
+
+# Design and Creativity
+cask "figma"
+
+# Streaming and Recording
+cask "obs"
+cask "elgato-stream-deck"
+
+# Miscellaneous Utilities
+cask "chatgpt"
+cask "chirp"
+
+# Mac App Store Command Line Interface
+brew "mas"
+
+# Mac App Store Applications
+mas "Things3", id: 904280696
+mas "Magnet", id: 441258766
+
+# VS Code Extensions
+vscode "GitHub.codespaces"
+vscode "GitHub.copilot"
+vscode "ms-azuretools.vscode-docker"
+vscode "ms-vscode.live-server"
+vscode "ms-vscode-remote.remote-containers"
